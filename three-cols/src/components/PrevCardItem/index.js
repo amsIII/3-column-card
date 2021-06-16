@@ -23,7 +23,7 @@ const Article = styled.article`
 	flex-direction: column;
 	justify-content: center;
 	align-items: flex-start;
-	height: 430px;
+	height: 450px;
 	width: 300px;
 	padding: 2rem;
 	background-color: ${({ mainColor }) => mainColor};
