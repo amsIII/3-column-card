@@ -1,4 +1,3 @@
-import luxuryCar from "../../images/icon-luxury.svg";
 import Button from "../Button";
 import styled from "styled-components";
 
@@ -20,21 +19,27 @@ const PrevCardItem = ({ mainColor, image, title, desc }) => {
 export default PrevCardItem;
 
 const Article = styled.article`
-	/* height: 400px; */
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	height: 430px;
 	width: 300px;
-	padding: 2.7rem;
+	padding: 2rem;
 	background-color: ${({ mainColor }) => mainColor};
 	color: hsla(0, 0%, 100%, 0.75);
 	line-height: 1.4;
 
 	@media screen and (min-width: 1280px) {
-		/* width: 230px; */
+		width: 275px;
 	}
 `;
 const Img = styled.img`
 	width: 30%;
 `;
-const TextSection = styled.section``;
+const TextSection = styled.section`
+	font-family: "Lexend Deca", sans-serif;
+`;
 const BtnSection = styled.section`
 	margin-top: 30px;
 	color: ${({ mainColor }) => mainColor};

@@ -1,7 +1,6 @@
 import sedan from "../../images/icon-sedans.svg";
 import suvs from "../../images/icon-suvs.svg";
 import luxury from "../../images/icon-luxury.svg";
-import Button from "../Button";
 import PrevCardItem from "../PrevCardItem";
 import styled from "styled-components";
 
@@ -39,7 +38,6 @@ const Container = styled.div`
 	justify-content: center;
 	align-items: center;
 	border-radius: 10px;
-	background-color: black;
 	overflow: hidden;
 
 	@media screen and (min-width: 1280px) {
