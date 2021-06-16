@@ -31,7 +31,7 @@ const PrevCard = () => {
 
 export default PrevCard;
 
-const Container = styled.div`
+const Container = styled.article`
 	height: auto;
 	display: flex;
 	flex-direction: column;

@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 const PrevCardItem = ({ mainColor, image, title, desc }) => {
 	return (
-		<Article mainColor={mainColor}>
+		<Card mainColor={mainColor}>
 			<Img src={image} alt="luxury car" />
 			<TextSection>
 				<Title>{title}</Title>
@@ -12,13 +12,13 @@ const PrevCardItem = ({ mainColor, image, title, desc }) => {
 			<BtnSection mainColor={mainColor}>
 				<Button />
 			</BtnSection>
-		</Article>
+		</Card>
 	);
 };
 
 export default PrevCardItem;
 
-const Article = styled.article`
+const Card = styled.section`
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
