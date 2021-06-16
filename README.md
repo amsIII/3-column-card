@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Click Here](https://www.frontendmentor.io/solutions/3column-preview-card-component-using-react-andand-styled-components-k1HlMn92M)
 - Live Site URL: [Click Here](https://amsiii.github.io/3-column-card/)
 
 ## My process
