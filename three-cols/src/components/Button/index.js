@@ -1,0 +1,24 @@
+import styled from "styled-components";
+
+const index = () => {
+	return (
+		<>
+			<Button>
+				<strong>Learn More</strong>
+			</Button>
+		</>
+	);
+};
+
+export default index;
+
+const Button = styled.button`
+	padding: 15px 25px;
+	border: none;
+	border-radius: 50px;
+	outline: none;
+	color: inherit;
+	font-family: "Lexend Deca", sans-serif;
+	font-size: 15px;
+	background-color: hsl(0, 0%, 95%);
+`;
